@@ -1,3 +1,4 @@
+
 * {
     margin:0;
     box-sizing: border-box;
@@ -290,11 +291,6 @@ footer {
 
 /*-------------------------------------------------------CSS TIENDA-------------------------------------------------------------------*/
 
-.lineaTienda {
-
-    margin-top: 40px;
-    background-color: rgb(50,51,50);
- }
 
 .tituloTres {
 
