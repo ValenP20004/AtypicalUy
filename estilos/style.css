@@ -4,6 +4,34 @@
     box-sizing: border-box;
     padding-inline-start: 0px;
  }
+
+
+ .redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgb(50, 51, 50);
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
  
 .logoAtypical{
 
@@ -138,7 +166,7 @@ hr {
     font-size: 15px;
     font-weight: bold;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
 }
 
