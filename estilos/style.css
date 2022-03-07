@@ -5,14 +5,22 @@
     padding-inline-start: 0px;
  }
 
+.hr {
 
- .redes {
-    min-width: 700px;
+    
+    border-bottom: 8px solid rgb(50, 51, 50);
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: 25%;
+
+ }
+
+.redes {
     display: flex;
     justify-content: center;
   }
   
-  .redes a {
+.redes a {
     text-decoration: none;
     font-size: 20px;
     width: 40px;
@@ -29,9 +37,19 @@
     margin-top: 5%;
   }
   
-  .buttons a:hover {
-    transform: scale(1.2);
-  }
+.buttons a:hover {
+
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.textoComunNumero {
+
+text-align: center;
+margin-top: 3%;
+
+}
+
  
 .logoAtypical{
 
@@ -266,7 +284,7 @@ footer {
 }
 
 
-#boton {
+.boton {
 
     height: 40px;
     width: 140px;
@@ -318,6 +336,26 @@ footer {
 }
 
 /*-------------------------------------------------------CSS TIENDA-------------------------------------------------------------------*/
+
+.hr2 {
+    
+border-bottom: 8px solid rgb(50, 51, 50);
+margin-bottom: 10px;
+width: 50%;
+margin-left: 25%;
+margin-top: 40px;
+
+}
+
+.hr3 {
+    
+border-bottom: 8px solid rgb(50, 51, 50);
+margin-bottom: 10px;
+width: 50%;
+margin-left: 25%;
+margin-top: 80px;
+
+}
 
 
 .tituloTres {
@@ -440,6 +478,13 @@ footer {
 
 /*-----------------------------------------------------CSS NOSOTROS---------------------------------------------------------------------*/
 
+.valentina {
+
+    text-decoration: underline; 
+    font-weight: bold;
+
+}
+
 .foto img {
 
     width: 200px;
@@ -535,11 +580,11 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
     height: 30px;
-    background-color: #fdff38;
+    background-color: gold;
     border: none;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 
    
     
@@ -650,6 +695,30 @@ footer {
 
 /*---------------------------------------------------------CARRITO CSS-------------------------------------------------------------------*/
 
+
+
+.listaCarrito {
+
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.textoComunCarrito {
+
+margin-left: 8%;
+color: rgb(50, 51, 50);
+font-family: helvetica;
+font-size: 1.1rem;
+padding-bottom: 10px;
+text-decoration: none;
+text-decoration: underline;
+
+
+
+}
+
 .subtituloCuatro {
 
     margin-top: 20px;
@@ -676,8 +745,7 @@ footer {
     padding-right: 10px;
     margin-bottom: 30px;
     margin-top: 20px;
-    margin-left: 10%;
-
+    margin-left: 1%
 }
 
 .radio2 {
@@ -893,11 +961,11 @@ footer {
         margin-top: 50px;
         margin-bottom: 50px;
         height: 50px;
-        background-color: #fdff38;
+        background-color: gold;
         border: none;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
     
        
         
@@ -920,60 +988,73 @@ footer {
     
     .botonDos:hover {
 
-    background-color: rgb(50, 51, 50);
-    color: rgb(252, 237, 153);
-    transition: 1s;
+        background-color: rgb(50, 51, 50);
+        color: rgb(252, 237, 153);
+        transition: 1s;
 
     }
 
     #boton:hover {
 
-        background-color: rgb(50, 51, 50);
-        color: rgb(252, 237, 153);
-        transition: 1s;
+            background-color: rgb(50, 51, 50);
+            color: rgb(252, 237, 153);
+            transition: 1s;
     }
 
-    .botonTres:hover {
 
-        background-color: rgb(50, 51, 50);
-        color: rgb(252, 237, 153);
-        transition: 1s;
-    }
 
     .botonP:hover {
 
-        background-color: rgb(50, 51, 50);
-        color: rgb(252, 237, 153);
-        transition: 1s;
+            background-color: rgb(50, 51, 50);
+            color: rgb(252, 237, 153);
+            transition: 1s;
     }
 
-    
+        
     menu li:hover {
 
-        display: flex;
-        background-color: rgb(252, 237, 153);
-        transition: 2s;
-    
+            display: flex;
+            background-color: rgb(252, 237, 153);
+            transition: 2s;
+        
     }
-    
+        
     .menu li:active {
-    
-        background-color: rgb(252, 237, 153);
+        
+            background-color: rgb(252, 237, 153);
     }
-    
+        
 
     .galeriaImg:hover {
 
-        filter: blur(8px);
-        transition: 1s;
+            filter: blur(8px);
+            transition: 1s;
 
     }
 
     .galeriaImg2:hover {
 
-        filter: blur(8px);
-        transition: 1s;
+            filter: blur(8px);
+            transition: 1s;
 
     }
 
+    div .filtro a:hover {
+
+        font-weight: bold;
+        color: rgb(50, 51, 50);
+
+    }
+
+    .listaCarrito:hover {
+
+        font-weight: bolder;
+    
+
+    }
+
+    .listaCarrito a:hover {
+
+        color: rgb(50, 51, 50);
+    }
 }
