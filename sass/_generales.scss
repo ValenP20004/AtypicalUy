@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    padding-inline-start: 0px;
+ }
+
+.hr {
+
+    
+    border-bottom: 8px solid rgb(50, 51, 50);
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: 25%;
+
+ }
+
+ .subtitulo {
+
+    letter-spacing: 0.1em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(50, 51, 50)
+    
+}
+
+
+.subtituloDos {
+
+    letter-spacing: 0.01em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+
+
+.tituloDos {
+
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    letter-spacing:0.222222em;
+    color: rgb(50, 51, 50);
+
+}
+

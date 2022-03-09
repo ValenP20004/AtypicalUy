@@ -1,0 +1,67 @@
+footer {
+
+    background-color: $colorAtypical;
+    height: 500px;
+    margin-top: 15pxd;
+    
+            .newsletter {
+
+                width: 70%;
+                height: 100px;
+                background-color: white;
+                text-align: center;
+                padding-top: 1.8%;
+
+        }
+
+            #boton {
+
+                height: 40px;
+                width: 140px;
+                background-color: $colorClaro;
+                font-family: Helvetica, sans-serif;
+                border: none;
+                font-weight: bold;
+                font-size: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
+            
+        }
+            
+            
+            
+            #formulario input {
+            
+                display:inline-flex;
+                justify-content: center;
+                align-self:center;
+                
+                
+               
+        }
+            
+            #caja {
+            
+                font-family: Helvetica, sans-serif;
+                color: $colorClaro;
+                width: 30vw;
+                height: 40px;
+                padding-left: 20px;
+                background-color: $colorContraste;
+                border: none;
+                margin-bottom: 5px;
+            
+        }
+            
+            .newsletterFooter {
+            
+                    margin:auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    vertical-align: middle;
+            
+        }
+        
+    }

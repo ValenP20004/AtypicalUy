@@ -1,0 +1,84 @@
+    
+    
+    .botonDos:hover {
+
+        background-color: $colorContraste;
+        color: $colorClaro;
+        transition: 1s;
+
+    }
+
+    #boton:hover {
+
+            background-color: $colorContraste;
+            color: $colorClaro;
+            transition: 1s;
+    }
+
+
+
+    .botonP:hover {
+
+            background-color: $colorContraste;
+            color: $colorClaro;
+            transition: 1s;
+    }
+
+        
+    menu li:hover {
+
+            display: flex;
+            background-color: $colorClaro;
+            transition: 2s;
+        
+    }
+        
+    .menu li:active {
+        
+            background-color: $colorClaro;
+    }
+        
+
+    .galeriaImg:hover {
+
+            filter: blur(8px);
+            transition: 1s;
+
+    }
+
+    .galeriaImg2:hover {
+
+            filter: blur(8px);
+            transition: 1s;
+
+    }
+
+    div .filtro a:hover {
+
+        font-weight: bold;
+        color: $colorContraste
+    }
+
+    .listaCarrito:hover {
+
+        font-weight: bolder;
+    
+
+    }
+
+    .listaCarrito a:hover {
+
+        color: $colorContraste
+    }
+
+    .buttons a:hover {
+
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+
+    #boton:hover {
+
+        background-color: $colorContraste;
+        color: $colorAtypical;
+    }
