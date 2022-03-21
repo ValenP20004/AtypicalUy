@@ -4,15 +4,50 @@
     padding-inline-start: 0px;
  }
 
+%widthHr {
+
+    width: 50%;
+
+}
+
+ $redes: (
+
+        text-decoration: none,
+        font-size: 20px,
+        width: 40px,
+        height: 40px,
+        line-height: 40px,
+        text-align: center,
+        background: #323332,
+        color: #ffffff,
+        border-radius: 50%,
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+        transition: all .4s ease-in-out,
+        margin-left: 3%,
+        margin-right: 3%,
+        margin-top: 5%,
+);
+
+.redes a {
+    content: map-get($redes, key);
+}
+
 .hr {
 
-    
-    border-bottom: 8px solid rgb(50, 51, 50);
     margin-bottom: 10px;
-    width: 50%;
+    color: $colorContraste;
     margin-left: 25%;
 
+
+        @mixin widthHr {
+
+            @extend %widthHr
+            
+        }
+
  }
+
+ 
 
  .subtitulo {
 

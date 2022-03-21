@@ -4,9 +4,8 @@
   padding-inline-start: 0px; }
 
 .hr {
-  border-bottom: 8px solid #323332;
   margin-bottom: 10px;
-  width: 50%;
+  color: #323332;
   margin-left: 25%; }
 
 .subtitulo {
